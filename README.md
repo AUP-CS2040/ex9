@@ -68,3 +68,7 @@ such as the following one: `(3) 1 2 3 0` .
 In this puzzle, you can bounce between the two `3`s, but you cannot reach any other square.
 Make sure you always manage to answer if a puzzle is solvable or not, even in the above case.
 The signature of this program is `public static boolean solvePuzzle(int pos, int[] puzzle)`
+
+### Prolog
+
+Can you solve the puzzle using the Prolog programming language?
