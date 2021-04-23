@@ -21,9 +21,18 @@ This exercise includes a couple of warmup questions and the implementation of a 
 
 Please complete the following questions from the book. Note that using a scanner is not required and that you can run your programs by feeding them values directly.
 If you do choose to use scanners, remember that you need to compile the program and then execute them separately, due to the interactiveness limitation of Gradle.
-1. 18.3 (GCD)
-2. 18.8 (reverse digits)
-3. 18.10 (occurrences)
+1. 18.9: (Print the characters in a string reversely) Write a recursive method that dis-plays a string reversely on the console using the following header:
+`public static void reverseDisplay(String value)`
+2. 18.15: (Print the characters in a string reversely) Write a recursive method that dis-plays a string reversely on the console using the following header:
+`public static void reverseDisplay(String value)`
+3. 18.25: (String permutation) Write a recursive method to print all the permutations of a string. For example, for the string abc, the permutation is abc acb bac bca cab cba
+(Hint: Define the following two methods. The second is a helper method.)
+```
+public static void displayPermutation(String s)
+public static void displayPermutation(String s1, String s2)
+```
+The first method simply invokes displayPermutation(" ", s). The second method uses a loop to move a character from s2 to s1 and recursively invokes it with new s1 and s2. The base case is that s2 is empty and prints s1 to the console.
+Write a test program that prompts the user to enter a string and displays all its permutations.
 
 ## The subset problem
 
