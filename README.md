@@ -23,8 +23,9 @@ Please complete the following questions from the book. Note that using a scanner
 If you do choose to use scanners, remember that you need to compile the program and then execute them separately, due to the interactiveness limitation of Gradle.
 1. 18.9: (Print the characters in a string reversely) Write a recursive method that dis-plays a string reversely on the console using the following header:
 `public static void reverseDisplay(String value)`
-2. 18.15: (Occurrences of a specified character in a string) Rewrite Programming Exer-cise 18.10 using a helper method to pass the substring high index to the method. The helper method header is
-`public static int count(String str, char a, int high)`
+2. 18.10:  (Occurrences of a specified character in a string) Write a recursive method that finds the number of occurrences of a specified letter in a string using the following method header:
+`public static int count(String str, char a)`
+For example, count("Welcome", 'e') returns 2. Write a test program that prompts the user to enter a string and a character, and displays the number of occurrences for the character in the string.
 3. 18.25: (String permutation) Write a recursive method to print all the permutations of a string. For example, for the string abc, the permutation is abc acb bac bca cab cba
 (Hint: Define the following two methods. The second is a helper method.)
 ```
